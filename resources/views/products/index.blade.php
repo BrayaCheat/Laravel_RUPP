@@ -1,4 +1,11 @@
 <x-app-layout>
+
+    <x-slot name="header">
+        <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight">
+            {{ __('Crud Apps') }}
+        </h2>
+    </x-slot>
+
     <h1 class="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-100">All Products</h1>
     <a href="{{ route('products.create') }}" class="px-4 py-2 border border-gray-500 text-gray-900 dark:text-gray-100 rounded hover:bg-gray-200 dark:hover:bg-gray-700 transition">
         Create Product

@@ -7,14 +7,15 @@
 
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
-                <div class="p-6 text-gray-900 dark:text-gray-100">
-                    {{ __("Braya Smos is logged in!") }}
-                    <a href="{{ route('products.index') }}" class="px-4 py-2 border border-gray-500 text-gray-900 dark:text-gray-100 rounded hover:bg-gray-200 dark:hover:bg-gray-700 transition">
-                    View Products
-                </a>
-                </div>
-
+            <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg p-6 text-gray-900 dark:text-gray-100">
+                    <h1>{{ __("Braya Smos is logged in!") }}</h1>
+                    <a href="{{ route('products.index') }}" class="underline mx-10">
+                        Crud Apps
+                    </a>
+                    <br>
+                    <a href="{{ route('braya') }}" class="underline mx-10">
+                        Custom Layouts
+                    </a>
             </div>
         </div>
     </div>
