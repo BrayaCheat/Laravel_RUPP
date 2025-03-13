@@ -9,9 +9,12 @@
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900 dark:text-gray-100">
-                <h1 class="text-4xl font-bold text-white">Hello, It's Me Braya Smos.</h1>
-                    {{ __("You're logged in!") }}
+                    {{ __("Braya Smos is logged in!") }}
+                    <a href="{{ route('products.index') }}" class="px-4 py-2 border border-gray-500 text-gray-900 dark:text-gray-100 rounded hover:bg-gray-200 dark:hover:bg-gray-700 transition">
+                    View Products
+                </a>
                 </div>
+
             </div>
         </div>
     </div>
